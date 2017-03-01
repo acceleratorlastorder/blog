@@ -1,0 +1,16 @@
+.comment {
+    border: 1px solid black;
+}
+#comment{
+width: 200px;
+height: 150px;
+}
+
+/*
+
+ajout billet
+première action récupérere les variable du form
+
+seconde les intégrere dans la db
+
+3èm redirect home

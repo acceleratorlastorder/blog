@@ -1,0 +1,28 @@
+{
+    "tweets": [{
+            "ID": "001",
+            "name": "Accelerator",
+            "islogged": "true",
+            "message": "bonjour je me présente henri et j'aime le riz"
+        },
+        {
+            "ID": "002",
+            "name": "Lastorder",
+            "islogged": "true",
+            "message": "comment aller vous ?"
+        },
+        {
+            "ID": "003",
+            "name": "Misaka",
+            "islogged": "true",
+            "message": "Je vais bien et toi ?"
+        },
+        {
+            "ID": "002",
+            "name": "Lastorder",
+            "islogged": "true",
+            "message": "ça va merci"
+        }
+
+    ]
+}

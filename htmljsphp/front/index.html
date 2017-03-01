@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog sans rechargement de page lors de la soumission de commentaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-app="blog" ng-controller="ExampleController">
+    <h1>Blog test sans rechargement de page</h1>
+    <form onsubmit="return submittojs()" method="post">
+        <div class="">
+            <div class="">
+                <div class="">
+                    <input class="" ng-model="text" type="text" name="text" placeholder="Quoi de neuf ?" />
+                </div>
+            </div>
+            <span class=""></span>
+            <ul class="">
+                <div class="" ng-repeat="item in list track by $index">{{item}}</div>
+            </ul>
+        </div>
+        <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </form>
+    <div class="comment">
+
+    </div>
+
+<script src="angular.js" charset="utf-8"></script>
+<script src="application.js" charset="utf-8"></script>
+</body>
+
+</html>
